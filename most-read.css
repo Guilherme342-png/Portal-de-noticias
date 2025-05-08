@@ -1,0 +1,11 @@
+.most-read{
+    width: 1216px;
+    margin-inline: auto;
+    border-top: 1px solid var(--stroke-color);
+
+
+    .heading{
+        display: flex;
+        justify-content: space-between;
+    }
+}
