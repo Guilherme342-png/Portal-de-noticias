@@ -2,10 +2,45 @@
     width: 1216px;
     margin-inline: auto;
     border-top: 1px solid var(--stroke-color);
-
+   
 
     .heading{
         display: flex;
         justify-content: space-between;
+        margin-top: 12px;
+
+        
+        div{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 5.75px;
+        }        
+}
+
+    .grid-most-read{
+        display: grid;
+        grid-auto-flow: column;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 24px;
+         position: relative;
+
+         .most-read-tag{
+             position: absolute;
+             top: 8px;
+             margin-left: 8px;
+         }
+
+         .most-read-txt{
+            margin-top: 8px;
+            width: 292px;
+            height: 66px;
+            overflow: hidden;
+         }
     }
+
+    
+       
+
 }
