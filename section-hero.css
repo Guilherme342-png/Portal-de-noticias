@@ -1,0 +1,48 @@
+.section-hero {
+  width: 1216px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+
+  .heading-ia {
+    margin-top: 12px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 5.75px;
+    }
+  }
+}
+
+.destaques-ia{
+     border-top: 1px solid var(--stroke-color);
+
+}
+
+.noticias-ia {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.noticias-ia-card {
+  display: flex;
+  width: 696px;
+  gap: 16px;
+
+
+  .card-ia{
+    height: 176px; 
+    overflow: hidden;
+    
+    h1{
+        margin-bottom: 5px;
+    }
+  }
+}
